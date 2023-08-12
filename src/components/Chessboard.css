@@ -1,0 +1,15 @@
+.chessboard {
+  @apply grid grid-cols-8 w-96 h-96 bg-slate-400; 
+}
+
+.tile {
+  @apply w-12 h-12
+}
+
+.black-tile {
+  @apply bg-sky-400
+}
+
+.white-tile {
+  @apply bg-orange-400
+}
